@@ -1,8 +1,8 @@
 # jord-omics-engine
 
-# Nextflow Pipeline Guide for Bacterial Genome Annotation at <COMPANY>
+# Pipeline Guide for Bacterial Genome Annotation at JBS
 
-The base bacterial genome annotation pipeline used at <COMPANY> utilizes the pipeline management software Nextflow. The pipeline integrates several open-source tools to predict genes, biosynthetic gene clusters (BGCs), antibiotic resistance profiles, and antimicrobial peptides.
+The base bacterial genome annotation pipeline used at JBS utilizes the pipeline management software Nextflow. The pipeline integrates several open-source tools to predict genes, biosynthetic gene clusters (BGCs), antibiotic resistance profiles, and antimicrobial peptides.
 
 ## Tools Used
 
