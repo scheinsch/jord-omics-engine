@@ -145,7 +145,7 @@ Using `screen` allows you to run the pipeline and disconnect from the terminal w
 
 ### Resource Utilization
 
-Nextflow, with Azure Batch, dynamically allocates resources. We initiate the pipeline using a lower-resource head node, specifically the ‘anitest’ VM (4 vCPUs). Ensure the head node is deallocated after execution. Plan ahead, as the ‘anitest’ VM is scheduled for auto-shutdown at a specific time (XX:XX:XX UTC). Disable auto-shutdown or respond promptly to Azure’s notification email to avoid disruptions.
+Nextflow, with Azure Batch, dynamically allocates resources. We initiate the pipeline using a lower-resource head node, specifically the ‘anitest’ VM (4 vCPUs). Ensure the head node is deallocated after execution. Plan ahead, as the ‘anitest’ VM is scheduled for auto-shutdown at a specific time (7:00:00 PM UTC). Disable auto-shutdown or respond promptly to Azure’s notification email to avoid disruptions.
 
 We have restricted the pipeline to use 'Standard_D8_v3' VMs (8 vCPU, 32 GB RAM), and a VM count of 10. This has worked well on batches as large as 300 assemblies. Our vCPU quota should allow us to go higher in VM count, however it has not yet been necessary as the pipeline still completes in under 24 hours of operation. 
 
